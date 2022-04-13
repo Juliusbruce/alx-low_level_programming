@@ -4,9 +4,8 @@
  * print_times_table - Prints the times table of the input
  *                     starting with 0.
  * @n: The value of the times table to be printed.
- *Return: Always 0 (Success)
  */
-void print_times_table(int n)
+void times_table(int n)
 {
 int num, mult, prod;
 
@@ -42,7 +41,4 @@ _putchar((prod % 10) + '0');
 _putchar('\n');
 }
 }
-}
-
-return (0);
 }
