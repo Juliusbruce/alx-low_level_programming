@@ -3,7 +3,7 @@
 /**
  * print_chessboard - print the chessboard, 2d array
  * @a: 2d array of chars
- * Return: Always 0
+ * Return: void
  */
 
 void print_chessboard(char (*a)[8])
@@ -22,5 +22,4 @@ j++;
 _putchar ('\n'); /*print new line*/
 y++; /*add +1*/
 }
-
 }
