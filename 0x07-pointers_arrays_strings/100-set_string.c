@@ -2,12 +2,11 @@
 
 /**
  * set_string - sets the value of a pointer to a char
- * @s: content is to be copied
- * @to: string
- * Return: void
+ * @s: source address
+ * @to: target address
+ * Return: no return.
  */
-
 void set_string(char **s, char *to)
 {
-i	*s = to;
+*s = to;
 }
