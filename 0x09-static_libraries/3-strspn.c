@@ -29,7 +29,7 @@ count++; /*count number*/
 break;
 }
 
-j++;    /*add j+1*/
+j++; /*add j+1*/
 }
 
 if (s[i] != accept[j]) /*If aren't equals*/
