@@ -18,11 +18,11 @@ void _print(char *str, int l)
 		if (str[i] != '0')
 			j = 1;
 		if (j || i == l - 1)
-			putchar(str[i]);
+			_putchar(str[i]);
 		i++;
 	}
 
-	putchar('\n');
+	_putchar('\n');
 	free(str);
 }
 
